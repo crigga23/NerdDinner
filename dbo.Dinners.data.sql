@@ -1,0 +1,5 @@
+﻿SET IDENTITY_INSERT [dbo].[Dinners] ON
+INSERT INTO [dbo].[Dinners] ([DinnerId], [Title], [EventDate], [Description], [HostedBy], [ContactPhone], [Address], [Country], [Latitude], [Longitude]) VALUES (1, N'.NET Futures', N'2015-12-06 00:00:00', N'Come talk about cool things', N'cmckay', N'07931835910', N'13 Beech Avenue, Stockport, Cheshire, SK74QP', N'England', 47.64312, -122.130609)
+INSERT INTO [dbo].[Dinners] ([DinnerId], [Title], [EventDate], [Description], [HostedBy], [ContactPhone], [Address], [Country], [Latitude], [Longitude]) VALUES (2, N'Geek Out', N'2015-12-06 00:00:00', N'All things geek count', N'imckay', N'07931835910', N'13 Beech Avenue, Stockport, Cheshire, SK74QP', N'England', 47.64312, -122.130609)
+INSERT INTO [dbo].[Dinners] ([DinnerId], [Title], [EventDate], [Description], [HostedBy], [ContactPhone], [Address], [Country], [Latitude], [Longitude]) VALUES (3, N'Fine Wine', N'2015-12-06 00:00:00', N'Sample some of the fine Cheshire Wine', N'imckay', N'07931835910', N'13 Beech Avenue, Stockport, Cheshire, SK74QP', N'England', 47.64312, -122.130609)
+SET IDENTITY_INSERT [dbo].[Dinners] OFF
